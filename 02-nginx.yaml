@@ -1,4 +1,4 @@
-- name: "Installing Nginx webserver & Run the service"
+- name: installing Nginx webserver and run
   hosts: web
   become: yes
   tasks:
@@ -7,7 +7,7 @@
       name: nginx
       state: present
   - name: Run nginx
-    ansible.buitin.service:
+    ansible.builtin.service:
       name: nginx
       state: started
     
