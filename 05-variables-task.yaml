@@ -7,7 +7,7 @@
   tasks:
   - name: check variables
     vars:
-      course: "with Rakshita"
+      course: "DevOps"
     ansible.builtin.debug:
       msg: "I am learing {{course}}, Trainer is {{Instructor}} and the duration is {{Duration}}"
     
