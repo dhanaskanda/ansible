@@ -4,6 +4,14 @@
 [web]
 44.211.168.176
 
+[localhost]
+localhost
+
+[localhost:vars]
+course="Devops with AWS"
+Trainer="Skanda"
+Duration="100 Hrs"
+
 [cart]
 192.168.35.3
 192.168.35.5
