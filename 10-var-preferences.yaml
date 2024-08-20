@@ -20,3 +20,4 @@
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
       
+# This yaml is to see how and which variables will be called first when we give the variables across all places. like, Playbook, file, inventory, task level, prompt variables, command line etc.
