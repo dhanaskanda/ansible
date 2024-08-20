@@ -1,0 +1,18 @@
+- name: loops
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Install or uninstall the packages
+      ansible.builtin.package:
+        name: "{{item.name}}"
+        state: "{{item.state}}"
+      loop:
+      - {name: 'git', state: 'present'}
+      - {name: 'mysql', state: 'absent'}
+      - {name: 'profix', state: 'absent'}
+      - {name: 'nginx', state: 'present'}
+
+      - name: Print message
+        ansible.builtin.debug:
+          msg: "Installations and unstalliation is done"
+      
