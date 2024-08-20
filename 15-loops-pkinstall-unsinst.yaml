@@ -12,7 +12,7 @@
       - {name: 'profix', state: 'absent'}
       - {name: 'nginx', state: 'present'}
 
-      - name: Print message
-        ansible.builtin.debug:
-          msg: "Installations and unstalliation is done"
+    - name: Print message
+      ansible.builtin.debug:
+        msg: "Installations and unstalliation is done"
       
