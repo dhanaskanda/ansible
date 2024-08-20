@@ -12,6 +12,9 @@ course="Devops with AWS"
 Trainer="Skanda"
 Duration="100 Hrs"
 
+PERSON="Skanda from inventory"
+WISHES="Morning from Inventory"
+
 [cart]
 192.168.35.3
 192.168.35.5
