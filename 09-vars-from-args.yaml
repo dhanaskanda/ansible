@@ -3,4 +3,4 @@
   tasks:
     - name: variable check
       ansible.builtin.debug:
-        msg: "Hello {{PERSON}}, Good {{WISHES}}"
+        msg: "Hello {{PERSON}}, Good {{WISHES}}" # The arguments should be passed while running the yaml code from command line.
